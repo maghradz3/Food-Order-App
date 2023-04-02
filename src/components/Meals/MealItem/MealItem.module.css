@@ -1,3 +1,11 @@
+.liTag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+
+}
+
 .meal {
     display: flex;
     flex-direction: column;
@@ -6,7 +14,7 @@
     margin: 1rem;
     padding-bottom: 1rem;
 
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
 }
 
 .meal h3 {
