@@ -20,7 +20,7 @@ const CartModal = (props) => {
   return (
     <Fragment>
       {ReactDOM.createPortal(
-        <Backdrop onClick={props.onClick} />,
+        <Backdrop onClick={props.onClose} />,
         portalElement
       )}
       {ReactDOM.createPortal(
